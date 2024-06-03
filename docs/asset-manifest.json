@@ -1,14 +1,29 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.7c950e09.css",
-    "main.js": "/portfolio/static/js/main.34aff48b.js",
+    "main.css": "/portfolio/static/css/main.461e649d.css",
+    "main.js": "/portfolio/static/js/main.22186a48.js",
     "static/media/profiile.png": "/portfolio/static/media/profiile.f3b219f76003626362f9.png",
+    "static/media/android.png": "/portfolio/static/media/android.4258b19234f1083d926f.png",
+    "static/media/react.png": "/portfolio/static/media/react.85fdbe6d8d4571a01ba6.png",
+    "static/media/python.png": "/portfolio/static/media/python.696fb673ae2c4cb29d89.png",
+    "static/media/gas.png": "/portfolio/static/media/gas.1237b0fc13aca8516edc.png",
+    "static/media/java.png": "/portfolio/static/media/java.297a1ddc8515cf50dbe9.png",
+    "static/media/c.png": "/portfolio/static/media/c.5eebd95e3fa5e15f852b.png",
+    "static/media/jupyter.png": "/portfolio/static/media/jupyter.9e13aa4c52d89906cdef.png",
+    "static/media/css.png": "/portfolio/static/media/css.9ffc6994f64309a89fa4.png",
+    "static/media/html.png": "/portfolio/static/media/html.23ba6e7f9154c4bc5480.png",
+    "static/media/pytorch.png": "/portfolio/static/media/pytorch.7f7a5633405096a60821.png",
+    "static/media/csharp.png": "/portfolio/static/media/csharp.fc430729bfa8902c06fd.png",
+    "static/media/slack.png": "/portfolio/static/media/slack.af0833fa86574997cfb6.png",
+    "static/media/boot.png": "/portfolio/static/media/boot.efdec1327625a824a51e.png",
+    "static/media/line.png": "/portfolio/static/media/line.8d02eeff8dfb7adf29cb.png",
+    "static/media/js.png": "/portfolio/static/media/js.ae35ab7f9b8e48760129.png",
     "index.html": "/portfolio/index.html",
-    "main.7c950e09.css.map": "/portfolio/static/css/main.7c950e09.css.map",
-    "main.34aff48b.js.map": "/portfolio/static/js/main.34aff48b.js.map"
+    "main.461e649d.css.map": "/portfolio/static/css/main.461e649d.css.map",
+    "main.22186a48.js.map": "/portfolio/static/js/main.22186a48.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c950e09.css",
-    "static/js/main.34aff48b.js"
+    "static/css/main.461e649d.css",
+    "static/js/main.22186a48.js"
   ]
 }
