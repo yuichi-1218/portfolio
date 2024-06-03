@@ -3,11 +3,8 @@ import {Link as Scroll} from 'react-scroll';
 
 const Header = () =>{
     return(
-        <header>
+<header>
     <div class="container">
-      <h1 class="header-logo">
-      <Scroll  to = "scroll_title" smooth={true} duration={600}>NISHIDA YUICHI</Scroll>
-      </h1>
       <nav class="gnav">
         <ul class="gnav-list">
           <li class="gnav-item">
