@@ -49,34 +49,69 @@ img {
 
 /*header*/
 
-header{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: bisque;
+.header {
   position: fixed;
+  top: 0;
+  z-index: 1;
   width: 100%;
-  z-index: 10
+  background-color: rgb(156, 154, 154);
+  box-shadow: 0 5px 10px -6px rgba(75, 73, 73, 0.1);
 }
 
-header .logo h3{
-  font-size: 30px;
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
 }
 
-nav ul li{
+.header-logo {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-right: 20px;
+  letter-spacing: .05em;
+}
+
+.header-logo a {
+  color:rgb(20, 20, 20);
+}
+
+.gnav-list {
+  display: flex;
+  justify-content: space-between;
   list-style: none;
+}
+
+.gnav-item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.gnav-item a {
+  position: relative;
+  font-size: 13px;
+  font-weight: bold;
   display: inline-block;
-  margin-right: 30px;
+  padding: 5px 0;
+  transition: .3s;
+  letter-spacing: .05em;
+  color: #333;
+}
+.gnav-item a:after {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 3px;
+  content: "";
+  transition: .3s;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background-color: #333;
 }
 
-nav ul li a {
-  text-decoration: none;
-  color: black;
-  transition: all 0.2s;
-}
-
-nav ul li a:hover{
-  color: green;
+.gnav-item a:hover:after {
+  width: 100%;
 }
 
 /*title*/
@@ -195,6 +230,10 @@ nav ul li a:hover{
   margin-bottom: 50px;
 }
 
+.category{
+  text-align: center;
+}
+
 .skill-img {
   width: 60px;
   height: auto;
@@ -212,4 +251,12 @@ nav ul li a:hover{
 .skill-text {
   font-size: 14px;
   line-height: 1.8;
+}
+
+.tara{
+  text-align: center;
+}
+
+.collabo{
+  text-align: center;
 }

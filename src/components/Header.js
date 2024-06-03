@@ -3,27 +3,32 @@ import {Link as Scroll} from 'react-scroll';
 
 const Header = () =>{
     return(
-    <header>
-        <div className="logo">
-            <h3>ポートフォリオサイト</h3>
-        </div>
-        <nav>
-            <ul>
-                <li>
-                    <Scroll to = "scroll_title" smooth={true} duration={600}>Home</Scroll>
-                </li>
-                <li>
-                    <Scroll to = "about" smooth={true} duration={600}>About</Scroll>
-                </li>
-                <li>
-                    <Scroll to = "works" smooth={true} duration={600}>Work</Scroll>
-                </li>
-                <li>
-                    <Scroll to = "skill" smooth={true} duration={600}>Skill</Scroll>
-                </li>
-            </ul>
-        </nav>
-    </header>
+        <header>
+    <div class="container">
+      <h1 class="header-logo">
+      <Scroll  to = "scroll_title" smooth={true} duration={600}>NISHIDA YUICHI</Scroll>
+      </h1>
+      <nav class="gnav">
+        <ul class="gnav-list">
+          <li class="gnav-item">
+          <Scroll  to = "scroll_title" smooth={true} duration={600}>Home</Scroll>
+            </li>
+          <li class="gnav-item">
+          <Scroll  to = "about" smooth={true} duration={600}>About</Scroll>
+            </li>
+          <li class="gnav-item">
+          <Scroll  to = "works" smooth={true} duration={600}>works</Scroll>
+            </li>
+          <li class="gnav-item">
+          <Scroll to = "skill" smooth={true} duration={600}>Skill</Scroll>
+          </li>
+          <li class="gnav-item">
+          <Scroll to = "others" smooth={true} duration={600}>Others</Scroll>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
     );
 }
 
