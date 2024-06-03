@@ -48,14 +48,13 @@ img {
 }
 
 /*header*/
-
-.header {
+header {
   position: fixed;
   top: 0;
   z-index: 1;
   width: 100%;
-  background-color: rgb(156, 154, 154);
-  box-shadow: 0 5px 10px -6px rgba(75, 73, 73, 0.1);
+  background-color: #bab6b6;
+  box-shadow: 0 5px 10px -6px rgba(0,0,0,.1);
 }
 
 .header .container {
@@ -63,18 +62,6 @@ img {
   align-items: center;
   justify-content: space-between;
   padding: 20px 40px;
-}
-
-.header-logo {
-  font-size: 20px;
-  font-weight: bold;
-  line-height: 1.2;
-  margin-right: 20px;
-  letter-spacing: .05em;
-}
-
-.header-logo a {
-  color:rgb(20, 20, 20);
 }
 
 .gnav-list {
@@ -95,7 +82,7 @@ img {
   padding: 5px 0;
   transition: .3s;
   letter-spacing: .05em;
-  color: #333;
+  color: #121111;
 }
 .gnav-item a:after {
   position: absolute;
@@ -107,12 +94,13 @@ img {
   transition: .3s;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
-  background-color: #333;
+  background-color: #e70b0b;
 }
 
 .gnav-item a:hover:after {
   width: 100%;
 }
+
 
 /*title*/
 
