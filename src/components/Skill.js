@@ -42,7 +42,7 @@ const Skill = () =>{
               <div class="skill-body">
                 <h3 class="skill-name">HTML</h3>
                 <p class="skill-text">
-                  テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
+                  (2年) ポートフォリオサイトの作成に利用</p>
               </div> 
             </div>
 
@@ -53,7 +53,7 @@ const Skill = () =>{
               <div class="skill-body">
                 <h3 class="skill-name">CSS</h3>
                 <p class="skill-text">
-                  テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
+                (2年) ポートフォリオサイトの作成に利用</p>
               </div> 
             </div>
 
@@ -64,7 +64,7 @@ const Skill = () =>{
               <div class="skill-body">
                 <h3 class="skill-name">Javascript</h3>
                 <p class="skill-text">
-                  テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
+                  (2年)ポートフォリオサイトの作成と、MailingBotの開発に利用</p>
               </div> 
             </div>
 
@@ -75,7 +75,7 @@ const Skill = () =>{
               <div class="skill-body">
                 <h3 class="skill-name">Python</h3>
                 <p class="skill-text">
-                  テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
+                  (4年)研究に利用　主に深層学習の実装</p>
               </div> 
             </div>
 
@@ -86,7 +86,7 @@ const Skill = () =>{
               <div class="skill-body">
                 <h3 class="skill-name">Java</h3>
                 <p class="skill-text">
-                  テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
+                  (3年) Androidアプリの作成に利用</p>
               </div> 
             </div>
 
@@ -97,7 +97,7 @@ const Skill = () =>{
               <div class="skill-body">
                 <h3 class="skill-name">C#</h3>
                 <p class="skill-text">
-                  テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
+                  (半年)Unityでの物理演算プログラムの実装に利用</p>
               </div> 
             </div>
 
@@ -108,7 +108,7 @@ const Skill = () =>{
               <div class="skill-body">
                 <h3 class="skill-name">C</h3>
                 <p class="skill-text">
-                  テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
+                  (2年)講義で利用　プログラムの基礎,型やポインタ,バイナリについて理解</p>
               </div> 
             </div>
 
@@ -128,7 +128,7 @@ const Skill = () =>{
               <div class="skill-body">
                 <h3 class="skill-name">React</h3>
                 <p class="skill-text">
-                  テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
+                  (半年)ポートフォリオサイトの作成に利用</p>
               </div> 
             </div>
 
@@ -139,7 +139,7 @@ const Skill = () =>{
               <div class="skill-body">
                 <h3 class="skill-name">Google Apps Script</h3>
                 <p class="skill-text">
-                  テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
+                 (2年) MailingBotの開発,Google スプレッドシートの効率的な集計に利用</p>
               </div> 
             </div>
 
@@ -150,7 +150,7 @@ const Skill = () =>{
               <div class="skill-body">
                 <h3 class="skill-name">Bootstrap</h3>
                 <p class="skill-text">
-                  テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
+                  (半年)ポートフォリオサイトの作成に利用</p>
               </div> 
             </div>
 
@@ -161,7 +161,7 @@ const Skill = () =>{
               <div class="skill-body">
                 <h3 class="skill-name">Pytorch</h3>
                 <p class="skill-text">
-                  テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
+                  (2年)研究で利用　深層学習フレームワークとして</p>
               </div> 
             </div>
             </div>
@@ -180,7 +180,7 @@ const Skill = () =>{
               <div class="skill-body">
                 <h3 class="skill-name">Windows</h3>
                 <p class="skill-text">
-                  テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
+                  メインのOS</p>
               </div> 
             </div>
 
@@ -191,7 +191,7 @@ const Skill = () =>{
               <div class="skill-body">
                 <h3 class="skill-name">Linux</h3>
                 <p class="skill-text">
-                  テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
+                  研究用のPCのOS　コマンドへの理解あり</p>
               </div> 
             </div>
 
@@ -202,7 +202,7 @@ const Skill = () =>{
               <div class="skill-body">
                 <h3 class="skill-name">Jupyter</h3>
                 <p class="skill-text">
-                  テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
+                  深層学習の際に利用</p>
               </div> 
             </div>
 
@@ -213,7 +213,7 @@ const Skill = () =>{
               <div class="skill-body">
                 <h3 class="skill-name">Git</h3>
                 <p class="skill-text">
-                  テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
+                  あらゆるプログラムのバージョン管理に利用</p>
               </div> 
             </div>
 
@@ -224,7 +224,7 @@ const Skill = () =>{
               <div class="skill-body">
                 <h3 class="skill-name">Android Studio</h3>
                 <p class="skill-text">
-                  テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
+                  Androidアプリの作成に利用</p>
               </div> 
             </div>
 
@@ -235,7 +235,7 @@ const Skill = () =>{
               <div class="skill-body">
                 <h3 class="skill-name">Visual Studio code</h3>
                 <p class="skill-text">
-                  テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
+                  メインの開発環境</p>
               </div> 
             </div>
 
@@ -246,7 +246,7 @@ const Skill = () =>{
               <div class="skill-body">
                 <h3 class="skill-name">Slack</h3>
                 <p class="skill-text">
-                  テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
+                  研究室でのコミュニケーションツールとして利用</p>
               </div> 
             </div>
 
@@ -257,7 +257,7 @@ const Skill = () =>{
               <div class="skill-body">
                 <h3 class="skill-name">Notion</h3>
                 <p class="skill-text">
-                  テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
+                  タスク管理、講義のノートとして利用</p>
               </div> 
             </div>
 
@@ -268,7 +268,7 @@ const Skill = () =>{
               <div class="skill-body">
                 <h3 class="skill-name">Unity</h3>
                 <p class="skill-text">
-                  テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
+                  講義で利用</p>
               </div>
             </div>
 
@@ -279,7 +279,7 @@ const Skill = () =>{
               <div class="skill-body">
                 <h3 class="skill-name">LINE Messaging API</h3>
                 <p class="skill-text">
-                  テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
+                  MailingBotの開発に利用</p>
               </div>
             </div>
 
@@ -290,7 +290,7 @@ const Skill = () =>{
               <div class="skill-body">
                 <h3 class="skill-name">Chat GPT API</h3>
                 <p class="skill-text">
-                  テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
+                MailingBotの開発と、研究に利用</p>
               </div> 
             </div>
 
