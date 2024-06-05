@@ -110,6 +110,7 @@ header {
   justify-content: center;
   height: 85vh;
   text-align: center;
+  background-color: #d4d3d3;
 }
 
 .mv-container {
@@ -203,6 +204,14 @@ header {
 }
 
 /*スキル*/
+.title{
+  padding: 100px;
+}
+
+.skill_section{
+  background-color: #d1cfcf;
+}
+
 .skill-list {
   display: flex;
   flex-wrap: wrap;

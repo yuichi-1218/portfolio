@@ -1,4 +1,7 @@
 import profimage from "./img/profiile.png";
+import insta from "./img/insta.png";
+import gtihub from "./img/github.png";
+import mail from "./img/mail.png";
 
 const About = () =>{
     return (

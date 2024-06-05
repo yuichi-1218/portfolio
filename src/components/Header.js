@@ -12,13 +12,13 @@ const Header = () =>{
             </li>
           <li class="gnav-item">
           <Scroll  to = "about" smooth={true} duration={600}>About</Scroll>
-            </li>
-          <li class="gnav-item">
-          <Scroll  to = "works" smooth={true} duration={600}>works</Scroll>
-            </li>
+   </li>
           <li class="gnav-item">
           <Scroll to = "skill" smooth={true} duration={600}>Skill</Scroll>
           </li>
+          <li class="gnav-item">
+          <Scroll  to = "works" smooth={true} duration={600}>works</Scroll>
+            </li>
           <li class="gnav-item">
           <Scroll to = "others" smooth={true} duration={600}>Others</Scroll>
           </li>

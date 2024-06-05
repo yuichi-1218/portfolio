@@ -26,7 +26,7 @@ import unity from "./img/unity.png"
 
 const Skill = () =>{
     return(
-        <section class="skill section" id="skill">
+        <section class="skill_section" id="skill">
         <div class="container">
           <h2 class="title">SKILL</h2>
         
