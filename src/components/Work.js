@@ -2,6 +2,7 @@ import Bot from "./img/MailingBot.png";
 import portfolio from "./img/portfolio.png";
 import bachelor from "./img/allll.drawio.png";
 import qiita from "./img/qiita.png";
+import timorleste from "./img/timorleste.png";
 
 const Work = () => {
   return (
@@ -58,6 +59,17 @@ const Work = () => {
             <p class="works-info">
               研究や就活に関する記事をぼちぼち投稿してます。
             </p>
+          </a>
+          <a
+            class="works-item"
+            href="https://ieeexplore.ieee.org/document/10763135"
+            target="_blank"
+          >
+            <div class="works-img">
+              <img src={timorleste} alt="" />
+            </div>
+            <p class="works-name">共著</p>
+            <p class="works-info">研究室の留学生との共著論文です。</p>
           </a>
         </div>
       </div>
