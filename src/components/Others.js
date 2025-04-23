@@ -6,6 +6,11 @@ const Others = () => {
           <h2 class="title">Others</h2>
 
           <div class="tara">
+            <h3>資格等</h3>
+            <p>2025.3 G検定取得</p>
+          </div>
+
+          <div class="tara">
             <h3>TA・RA等</h3>
             <p>2024.4-2024.8 プログラミング実践ⅡTA:Android/iosアプリ作成支援</p>
             <p>2024.1-現在 東ティモール留学生 研究支援チューター RA</p>
