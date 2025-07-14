@@ -71,6 +71,18 @@ const Work = () => {
             <p class="works-name">共著</p>
             <p class="works-info">研究室の留学生との共著論文です。</p>
           </a>
+
+          <a
+            class="works-item"
+            href="https://qiita.com/yuichi-ML/items/cfc213f0e99c72ad3b6e"
+            target="_blank"
+          >
+            <div class="works-img">
+              <img src={qiita} alt="" />
+            </div>
+            <p class="works-name">工事中</p>
+            <p class="works-info">工事中</p>
+          </a>
         </div>
       </div>
     </section>
