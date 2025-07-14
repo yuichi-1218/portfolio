@@ -1,42 +1,42 @@
 import React from "react";
+// react-router-domからLinkとuseLocationをインポート
+import { Link } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import { Link as Scroll } from "react-scroll";
 
 const Header = () => {
+  // 現在のURLパスを取得
+  const location = useLocation();
+  // ホームページにいるかどうかを判定
+  const isHomePage = location.pathname === "/";
+
+  const navLinks = [
+    { to: "scroll_title", label: "Home" },
+    { to: "about", label: "About" },
+    { to: "works", label: "works" },
+    { to: "skill", label: "Skill" },
+    { to: "others", label: "Others" },
+  ];
+
   return (
     <header>
-      <div class="container">
-        <nav class="gnav">
-          <ul class="gnav-list">
-            <li class="gnav-item">
-              <Scroll to="scroll_title" smooth={true} duration={600}>
-                Home
-              </Scroll>
-            </li>
-            <li class="gnav-item">
-              <Scroll to="about" smooth={true} duration={600}>
-                About
-              </Scroll>
-            </li>
-            <li class="gnav-item">
-              <Scroll to="skill" smooth={true} duration={600}>
-                Skill
-              </Scroll>
-            </li>
-            <li class="gnav-item">
-              <Scroll to="research" smooth={true} duration={600}>
-                Research
-              </Scroll>
-            </li>
-            <li class="gnav-item">
-              <Scroll to="works" smooth={true} duration={600}>
-                works
-              </Scroll>
-            </li>
-            <li class="gnav-item">
-              <Scroll to="others" smooth={true} duration={600}>
-                Others
-              </Scroll>
-            </li>
+      <div className="container">
+        <nav className="gnav">
+          <ul className="gnav-list">
+            {navLinks.map((link) => (
+              <li className="gnav-item" key={link.to}>
+                {isHomePage ? (
+                  // ホームページにいる場合は、react-scrollのLinkを使う
+                  <Scroll to={link.to} smooth={true} duration={600}>
+                    {link.label}
+                  </Scroll>
+                ) : (
+                  // 他のページにいる場合は、react-router-domのLinkを使う
+                  // まずホームページに戻り、その後スクロールさせる
+                  <Link to={`/#${link.to}`}>{link.label}</Link>
+                )}
+              </li>
+            ))}
           </ul>
         </nav>
       </div>
