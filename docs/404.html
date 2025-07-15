@@ -2,35 +2,13 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>Single Page Apps for GitHub Pages</title>
+    <title>Redirecting...</title>
     <script type="text/javascript">
-      // URLからパス部分を取得します (例: /portfolio/research)
-      var path = window.location.pathname;
-
-      // URLからクエリパラメータ部分を取得します (例: ?some=param)
-      var query = window.location.search;
-
-      // sessionStorageを使って、無限リダイレクトを防ぎます
-      var redirect = sessionStorage.redirect;
-      delete sessionStorage.redirect;
-
-      // 無限ループでなく、パスがルートでない場合
-      if (redirect && redirect === path) {
-        // 何もしない
-      } else {
-        // 新しいリダイレクト先を保存
-        sessionStorage.redirect = path;
-        // URLを書き換えてリダイレクトします
-        // /portfolio/research -> /portfolio/?p=/research
-        window.location.replace(
-          "/" +
-            path.split("/")[1] + // "portfolio" の部分を取得
-            "/?p=/" +
-            path.slice(1).split("/").slice(1).join("/") + // "research" の部分を取得
-            query
-        );
-      }
+      // アクセスされたかった本来のURLをsessionStorageに保存します
+      sessionStorage.redirect = location.href;
     </script>
+    <!-- サイトのトップページにリダイレクトします -->
+    <meta http-equiv="refresh" content="0;URL='/portfolio/'" />
   </head>
   <body></body>
 </html>

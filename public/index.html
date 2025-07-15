@@ -24,6 +24,22 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
+
+    <!-- ================= ここから追加 ================= -->
+    <script type="text/javascript">
+      (function () {
+        // 404.htmlが保存した「本来のURL」をsessionStorageから取り出します
+        var redirect = sessionStorage.redirect;
+        // 取り出したら、すぐに削除します
+        delete sessionStorage.redirect;
+        // もし本来のURLが存在したら
+        if (redirect && redirect != location.href) {
+          // ブラウザの表示URLを、ページを再読み込みせずに本来のURLに書き換えます
+          history.replaceState(null, null, redirect);
+        }
+      })();
+    </script>
+    <!-- ================= ここまで追加 ================= -->
     <title>NISHIDA YUICHI</title>
   </head>
   <body>
