@@ -115,15 +115,56 @@ header {
 
 .mv-container {
   padding: 0 40px;
+  /* (任意) 中央揃えにすると見栄えが良くなります */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100px; /* 高さを確保してレイアウト崩れを防ぐ */
 }
 
 .mv-title {
+  white-space: nowrap;
   font-size: 60px;
+
+  /* === ここを修正しました === */
+  /* 1. typing: 2秒かけて文字を表示します */
+  /* 2. effect: 2秒間だけカーソルを点滅させます (0.5s * 4回 = 2s) */
+  /* 3. hide-cursor: 2秒後にカーソルを完全に非表示にします */
+  animation: typing 2s steps(13) forwards, effect 0.5s step-end 4,
+    hide-cursor 0s 2s forwards;
+
   font-weight: bold;
   line-height: 1.2;
   margin-bottom: 5px;
   letter-spacing: 0.1em;
+  overflow: hidden;
+  border-right: 3px solid;
 }
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 16ch;
+  }
+}
+
+/* カーソルが点滅するアニメーション (変更なし) */
+@keyframes effect {
+  50% {
+    border-color: transparent;
+  }
+}
+
+/* === 新しく追加しました === */
+/* カーソルを非表示にするためだけのアニメーション */
+@keyframes hide-cursor {
+  to {
+    border-color: transparent;
+  }
+}
+
 .mv-subtitle {
   font-size: 20px;
   font-weight: bold;
