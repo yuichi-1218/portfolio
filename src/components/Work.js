@@ -3,6 +3,7 @@ import portfolio from "./img/portfolio.png";
 import bachelor from "./img/allll.drawio.png";
 import qiita from "./img/qiita.png";
 import timorleste from "./img/timorleste.png";
+import { Link } from "react-router-dom";
 
 const Work = () => {
   return (
@@ -72,17 +73,13 @@ const Work = () => {
             <p class="works-info">研究室の留学生との共著論文です。</p>
           </a>
 
-          <a
-            class="works-item"
-            href="https://qiita.com/yuichi-ML/items/cfc213f0e99c72ad3b6e"
-            target="_blank"
-          >
-            <div class="works-img">
-              <img src={qiita} alt="" />
-            </div>
-            <p class="works-name">工事中</p>
-            <p class="works-info">工事中</p>
-          </a>
+          <Link to="/research" className="works-item">
+          <div class="works-img">
+            <img src={qiita} alt="" />
+          </div>
+          <p class="works-name">修士学生研究</p>
+          <p class="works-info">修士論文の研究です</p>
+          </Link>
         </div>
       </div>
     </section>
