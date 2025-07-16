@@ -1,4 +1,10 @@
 import React, { useEffect } from "react";
+import Lafeak from "./img/Lafeak.png";
+import Web from "./img/web.png";
+import Primer from "./img/primer.png";
+import Translate from "./img/translate.png";
+import Train from "./img/train.png";
+import Order from "./img/order.png";
 
 // CSSを文字列として定義し、コンポーネント内に埋め込みます
 const styles = `
@@ -429,6 +435,39 @@ const styles = `
     background-color: var(--primary-color);
     color: var(--background-white);
   }
+    /* --- 参考資料セクションのスタイルを追加 --- */
+  .reference-item {
+    margin-bottom: 2rem;
+  }
+  .citation-text {
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    border-left: 3px solid var(--border-color);
+    font-size: 0.95rem;
+  }
+  .bibtex-box {
+    background-color: #2c3e50;
+    border-radius: 8px;
+    font-family: 'Menlo', 'Monaco', 'Courier New', monospace;
+    font-size: 0.85rem;
+    margin-top: 1rem;
+  }
+  .bibtex-code {
+    color: #f8f9fa;
+    white-space: pre-wrap;
+    word-break: break-all;
+    padding: 1.5rem;
+    margin: 0;
+  }
+  
+  .btn-outline-primary {
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+  }
+  .btn-outline-primary:hover {
+    background-color: var(--primary-color);
+    color: var(--background-white);
+  }
 `;
 
 // Feather Iconsをコンポーネントとして利用
@@ -531,10 +570,7 @@ export default function Research() {
                     </div>
                   </div>
                   <div className="research-page-header-image">
-                    <img
-                      src="https://placehold.co/220x220/E2E8F0/4A5568?text=Project"
-                      alt="Lafeakプロジェクトのロゴ"
-                    ></img>
+                    <img src={Lafeak} alt="Lafeakプロジェクトのロゴ"></img>
                   </div>
                 </div>
 
@@ -553,6 +589,19 @@ export default function Research() {
                     <p>
                       そこで、本研究では、東南アジアに位置する東ティモールの公用語であるテトゥン語に焦点をあて、LLMの開発に取り組み、発展途上国のデジタル資源
                       に寄与することを目的とする
+                    </p>
+                    <p>
+                      <strong>注意事項</strong>
+                      <br />
+                      本研究で構築したLLMは
+                      <a
+                        href="https://github.com/meta-llama/llama-models/blob/main/models/llama3_1/LICENSE"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Llama-3.1ライセンス
+                      </a>
+                      を継承します。
                     </p>
                   </section>
 
@@ -687,24 +736,21 @@ export default function Research() {
                         </div>
                       </div>
                       <div className="dataset-image">
-                        <img
-                          src="https://images.unsplash.com/photo-1585776245991-a6905418b57b?q=80&w=2070&auto=format&fit=crop"
-                          alt="Web Crawlのイメージ"
-                        />
+                        <img src={Web} alt="Web Crawlのイメージ" />
                       </div>
                     </div>
                     <table className="table research-page-table">
                       <thead>
                         <tr>
                           <th>データソース</th>
-                          <th>トークン数</th>
+                          <th>文章数/記事数</th>
                           <th>URL</th>
                         </tr>
                       </thead>
                       <tbody>
                         <tr>
                           <td>Wikipedia</td>
-                          <td>約 50M</td>
+                          <td>1468記事</td>
                           <td>
                             <a
                               href="https://dumps.wikimedia.org/tetwiki/20250320/"
@@ -717,7 +763,7 @@ export default function Research() {
                         </tr>
                         <tr>
                           <td>Labadain-30K+</td>
-                          <td>約 50M</td>
+                          <td>320066文</td>
                           <td>
                             <a
                               href="https://huggingface.co/datasets/gabrieljesus/Labadain-30k-plus-tetun"
@@ -730,7 +776,7 @@ export default function Research() {
                         </tr>
                         <tr>
                           <td>MADRAD-400-Tetun</td>
-                          <td>約 50M</td>
+                          <td> 870815文</td>
                           <td>
                             <a
                               href="https://huggingface.co/datasets/raphaelmerx/MADLAD-400-Tetun"
@@ -762,10 +808,7 @@ export default function Research() {
                         </div>
                       </div>
                       <div className="dataset-image">
-                        <img
-                          src="https://images.unsplash.com/photo-1521587760476-6c12a4b040da?q=80&w=2070&auto=format&fit=crop"
-                          alt="Primerのイメージ"
-                        />
+                        <img src={Primer} alt="Primerのイメージ" />
                       </div>
                     </div>
                     <table className="table research-page-table">
@@ -800,10 +843,7 @@ export default function Research() {
                         </div>
                       </div>
                       <div className="dataset-image">
-                        <img
-                          src="https://images.unsplash.com/photo-1543168256-41881f52d534?q=80&w=2070&auto=format&fit=crop"
-                          alt="Translateのイメージ"
-                        />
+                        <img src={Translate} alt="Translateのイメージ" />
                       </div>
                     </div>
                     <table className="table research-page-table">
@@ -870,10 +910,7 @@ export default function Research() {
 
                     <div className="figure-gallery">
                       <div className="figure-item">
-                        <img
-                          src="https://placehold.co/400x300/E2E8F0/4A5568?text=モデル構造図"
-                          alt="モデル構造図"
-                        />
+                        <img src={Train} alt="モデル構造図" />
                         <p>図2: モデル構築概要図</p>
                       </div>
                       <div className="figure-item">
@@ -906,10 +943,7 @@ export default function Research() {
                       <div className="hyperparams-figure">
                         <h4 className="research-page-sub-subtitle">&nbsp;</h4>{" "}
                         {/* for alignment */}
-                        <img
-                          src="https://placehold.co/400x300/E2E8F0/4A5568?text=関連図"
-                          alt="ハイパーパラメータ関連図"
-                        />
+                        <img src={Order} alt="ハイパーパラメータ関連図" />
                         <p>図4なんかのず</p>
                       </div>
                     </div>
@@ -1187,6 +1221,47 @@ export default function Research() {
                     <p>
                       （ここに、研究で参考にした論文や資料、データセットの出展などを記述します。）
                     </p>
+                    <li>
+                      <a
+                        href="http://www.tetundit.tl/publications.html#English_"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        テトゥン語関連の書籍や論文へのリンク
+                      </a>
+                    </li>
+                    <li>
+                      開発には日本語での継続事前学習を実施した東京科学大学(旧東工大)の
+                      <a
+                        href="https://swallow-llm.github.io/index.ja.html"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Swallow プロジェクト
+                      </a>
+                      を参考にした
+                    </li>
+                    <li>
+                      BLEUやBERTScoreのスコア算出にはHuggingface
+                      <a
+                        href="https://huggingface.co/docs/evaluate/index"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Evaluateライブラリ
+                      </a>
+                      を利用した
+                    </li>
+                    <div className="reference-item">
+                      <p className="citation-text">
+                        Guilherme Penedo and Quentin Malartic and Daniel Hesslow
+                        and Ruxandra Cojocaru and Alessandro Cappelli and Hamza
+                        Alobeidli and Baptiste Pannier and Ebtesam Almazrouei
+                        and Julien Launay. (2023). The RefinedWeb Dataset for
+                        Falcon LLM: Outperforming Curated Corpora with Web Data,
+                        and Web Data Only. <em>arxiv</em>
+                      </p>
+                    </div>
                   </section>
                 </article>
               </div>
