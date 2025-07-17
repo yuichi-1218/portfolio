@@ -24,7 +24,7 @@ const styles = `
   .research-page-section {
     font-family: 'Inter', 'Noto Sans JP', sans-serif;
     background-color: var(--background-light);
-    padding-top: 10rem;
+    padding-top: 5rem;
     padding-bottom: 5rem;
   }
 
@@ -554,15 +554,17 @@ export default function Research() {
                     </p>
                     <div className="mt-3">
                       <a
-                        href="#"
+                        href="https://drive.google.com/file/d/1spJTKefXusO0fn35Iw74TSr6bZvGcMna/view?usp=sharing"
                         className="btn btn-sm btn-outline-primary rounded-pill me-2"
+                        target="_blank"
                       >
                         <FeatherIcon icon="file-text" className="me-1" />
                         ポスターPDF
                       </a>
                       <a
-                        href="#"
+                        href="https://huggingface.co/Yuichi1218"
                         className="btn btn-sm btn-outline-secondary rounded-pill"
+                        target="_blank"
                       >
                         <FeatherIcon icon="huggingface" className="me-1" />
                         Hugging Face
@@ -573,6 +575,14 @@ export default function Research() {
                     <img src={Lafeak} alt="Lafeakプロジェクトのロゴ"></img>
                   </div>
                 </div>
+                <strong>研究キーワード</strong>
+                <ul className="library-list">
+                  <li>LLM開発</li>
+                  <li>継続事前学習</li>
+                  <li>コーパス構築</li>
+                  <li>ベンチマーク構築</li>
+                  <li>低資源言語</li>
+                </ul>
 
                 <article>
                   <section
@@ -599,7 +609,7 @@ export default function Research() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Llama-3.1ライセンス
+                        Llama-3.1 ライセンス
                       </a>
                       を継承します。
                     </p>
@@ -695,7 +705,7 @@ export default function Research() {
                       </li>
                       <li>
                         <strong>モデル学習:</strong>{" "}
-                        高性能な多言語対応モデル（例: Llama
+                        高性能な多言語対応モデル（Llama
                         3.1-8Bをベースとし、作成したデータセットで継続的事前学習を実行。
                       </li>
                       <li>
@@ -815,13 +825,13 @@ export default function Research() {
                       <thead>
                         <tr>
                           <th>データソース</th>
-                          <th>トークン数</th>
+                          <th>文数</th>
                         </tr>
                       </thead>
                       <tbody>
                         <tr>
                           <td>Peace Corps East Timor</td>
-                          <td>約 15M</td>
+                          <td>6920文</td>
                         </tr>
                       </tbody>
                     </table>
