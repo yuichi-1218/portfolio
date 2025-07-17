@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.ee76ec73.css",
-    "main.js": "/portfolio/static/js/main.290bcc61.js",
+    "main.js": "/portfolio/static/js/main.99080d0e.js",
     "static/media/Lafeak.png": "/portfolio/static/media/Lafeak.ec68742c092baad7b223.png",
     "static/media/profiile.png": "/portfolio/static/media/profiile.f3b219f76003626362f9.png",
     "static/media/timorleste.png": "/portfolio/static/media/timorleste.fea4fabee27f0e34ccb3.png",
+    "static/media/Lafek-samne.png": "/portfolio/static/media/Lafek-samne.3bae883f8fa5d3bc47c5.png",
     "static/media/primer.png": "/portfolio/static/media/primer.f9fc52cce103cf114c61.png",
     "static/media/android.png": "/portfolio/static/media/android.4258b19234f1083d926f.png",
     "static/media/train.png": "/portfolio/static/media/train.a92652e802f1c576e908.png",
@@ -31,10 +32,10 @@
     "static/media/js.png": "/portfolio/static/media/js.ae35ab7f9b8e48760129.png",
     "index.html": "/portfolio/index.html",
     "main.ee76ec73.css.map": "/portfolio/static/css/main.ee76ec73.css.map",
-    "main.290bcc61.js.map": "/portfolio/static/js/main.290bcc61.js.map"
+    "main.99080d0e.js.map": "/portfolio/static/js/main.99080d0e.js.map"
   },
   "entrypoints": [
     "static/css/main.ee76ec73.css",
-    "static/js/main.290bcc61.js"
+    "static/js/main.99080d0e.js"
   ]
 }
