@@ -5,6 +5,11 @@ import Primer from "./img/primer.png";
 import Translate from "./img/translate.png";
 import Train from "./img/train.png";
 import Order from "./img/order.png";
+import Loss from "./img/Loss.png";
+import QA from "./img/TLScommonsenseQA.png";
+import Flag from "./img/Flag.png";
+import Stone from "./img/Stone.png";
+import Place from "./img/TimorPlace.png";
 
 // CSSを文字列として定義し、コンポーネント内に埋め込みます
 const styles = `
@@ -666,21 +671,21 @@ export default function Research() {
                     <div className="scenery-gallery">
                       <div className="scenery-item">
                         <img
-                          src="https://images.unsplash.com/photo-1599494254445-5567b7556877?q=80&w=1974&auto=format&fit=crop"
+                          src={Place}
                           className="img-fluid"
-                          alt="東ティモールの風景1"
+                          alt="東ティモールの位置"
                         />
                       </div>
                       <div className="scenery-item">
                         <img
-                          src="https://images.unsplash.com/photo-1605639933582-8a356a5a3a24?q=80&w=2070&auto=format&fit=crop"
+                          src={Flag}
                           className="img-fluid"
                           alt="東ティモールの風景2"
                         />
                       </div>
                       <div className="scenery-item">
                         <img
-                          src="https://images.unsplash.com/photo-1588622146942-c5a749bec919?q=80&w=1931&auto=format&fit=crop"
+                          src={Stone}
                           className="img-fluid"
                           alt="東ティモールの風景3"
                         />
@@ -921,14 +926,11 @@ export default function Research() {
                     <div className="figure-gallery">
                       <div className="figure-item">
                         <img src={Train} alt="モデル構造図" />
-                        <p>図2: モデル構築概要図</p>
+                        <p>モデル構築概要図</p>
                       </div>
                       <div className="figure-item">
-                        <img
-                          src="https://placehold.co/800x400/E2E8F0/4A5568?text=Loss+Curve"
-                          alt="学習損失グラフ"
-                        />
-                        <p>図3: 継続的事前学習における損失曲線</p>
+                        <img src={Loss} alt="学習損失グラフ" />
+                        <p>継続的事前学習における損失曲線</p>
                       </div>
                     </div>
 
@@ -954,7 +956,7 @@ export default function Research() {
                         <h4 className="research-page-sub-subtitle">&nbsp;</h4>{" "}
                         {/* for alignment */}
                         <img src={Order} alt="ハイパーパラメータ関連図" />
-                        <p>図4なんかのず</p>
+                        <p>コーパスの学習順序</p>
                       </div>
                     </div>
 
@@ -964,7 +966,7 @@ export default function Research() {
                         <strong>GPU:</strong> NVIDIA A6000 48GB x 1
                       </p>
                       <p>
-                        <strong>学習時間:</strong> 約~~時間
+                        <strong>学習時間:</strong> 約40時間
                       </p>
                     </div>
                     <ul className="library-list">
@@ -1106,8 +1108,8 @@ export default function Research() {
                       <div className="construction-layout">
                         <div className="construction-text">
                           <p>
-                            既存の英語の常識推論データセットをベースに、専門知識を持つ複数の翻訳者と協力し、テトゥン語へ翻訳・文化的な調整を行いました。
-                            その後、ネイティブスピーカーによるクロスチェックを経て、品質を担保しました。
+                            研究室の言語系研究学生とテトゥン語ネイティブスピーカーによる複数人の協力を得て作成した
+                            東ティモールの常識のみを問う100問で構成される
                           </p>
                           <div className="contributors-section">
                             <h5>Contributors</h5>
@@ -1127,11 +1129,8 @@ export default function Research() {
                           </div>
                         </div>
                         <div className="construction-figure">
-                          <img
-                            src="https://placehold.co/400x300/E2E8F0/4A5568?text=構築フロー図"
-                            alt="ベンチマーク構築のフロー図"
-                          />
-                          <p>図1: TLScommonsenseQAの構築フロー</p>
+                          <img src={QA} alt="ベンチマーク構築のフロー図" />
+                          <p>TLScommonsenseQAの構築フロー</p>
                         </div>
                       </div>
                     </div>
@@ -1203,7 +1202,7 @@ export default function Research() {
                         </tr>
                         <tr>
                           <td>
-                            <td>Llama-3.1-Lafeak-8b</td>
+                            <td>Llama-3.1-Lafeak-8B</td>
                           </td>
                           <td>
                             <strong>15.1</strong>
