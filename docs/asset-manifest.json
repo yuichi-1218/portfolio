@@ -1,19 +1,23 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.ee76ec73.css",
-    "main.js": "/portfolio/static/js/main.99080d0e.js",
+    "main.js": "/portfolio/static/js/main.870fa405.js",
     "static/media/Lafeak.png": "/portfolio/static/media/Lafeak.ec68742c092baad7b223.png",
+    "static/media/Loss.png": "/portfolio/static/media/Loss.aca12a24f83ad530f057.png",
     "static/media/profiile.png": "/portfolio/static/media/profiile.f3b219f76003626362f9.png",
     "static/media/timorleste.png": "/portfolio/static/media/timorleste.fea4fabee27f0e34ccb3.png",
     "static/media/Lafek-samne.png": "/portfolio/static/media/Lafek-samne.3bae883f8fa5d3bc47c5.png",
+    "static/media/TimorPlace.png": "/portfolio/static/media/TimorPlace.c24171f8e6b613772069.png",
     "static/media/primer.png": "/portfolio/static/media/primer.f9fc52cce103cf114c61.png",
     "static/media/android.png": "/portfolio/static/media/android.4258b19234f1083d926f.png",
     "static/media/train.png": "/portfolio/static/media/train.a92652e802f1c576e908.png",
     "static/media/order.png": "/portfolio/static/media/order.e9e0f3053407d219683c.png",
     "static/media/translate.png": "/portfolio/static/media/translate.978e334add738d44444e.png",
     "static/media/allll.drawio.png": "/portfolio/static/media/allll.drawio.eb1b6835b3a08d312bc8.png",
+    "static/media/TLScommonsenseQA.png": "/portfolio/static/media/TLScommonsenseQA.17bd66b51beecac47423.png",
     "static/media/web.png": "/portfolio/static/media/web.c783b30a04fa201ac157.png",
     "static/media/react.png": "/portfolio/static/media/react.85fdbe6d8d4571a01ba6.png",
+    "static/media/Stone.png": "/portfolio/static/media/Stone.b557a4153fbb9ecb7ee7.png",
     "static/media/python.png": "/portfolio/static/media/python.696fb673ae2c4cb29d89.png",
     "static/media/MailingBot.png": "/portfolio/static/media/MailingBot.6cab0a93973fc8118911.png",
     "static/media/qiita.png": "/portfolio/static/media/qiita.7ec81e976ecc96f9c4b8.png",
@@ -32,10 +36,10 @@
     "static/media/js.png": "/portfolio/static/media/js.ae35ab7f9b8e48760129.png",
     "index.html": "/portfolio/index.html",
     "main.ee76ec73.css.map": "/portfolio/static/css/main.ee76ec73.css.map",
-    "main.99080d0e.js.map": "/portfolio/static/js/main.99080d0e.js.map"
+    "main.870fa405.js.map": "/portfolio/static/js/main.870fa405.js.map"
   },
   "entrypoints": [
     "static/css/main.ee76ec73.css",
-    "static/js/main.99080d0e.js"
+    "static/js/main.870fa405.js"
   ]
 }
