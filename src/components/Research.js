@@ -559,7 +559,7 @@ export default function Research() {
                     </p>
                     <div className="mt-3">
                       <a
-                        href="https://drive.google.com/file/d/1spJTKefXusO0fn35Iw74TSr6bZvGcMna/view?usp=sharing"
+                        href="https://drive.google.com/file/d/1S0IxjCH0YYklQkBezx5cmgOtVxyQybCo/view?usp=sharing"
                         className="btn btn-sm btn-outline-primary rounded-pill me-2"
                         target="_blank"
                       >
@@ -1024,24 +1024,28 @@ export default function Research() {
                       <tbody>
                         <tr>
                           <td>GPT-4o-mini-20240718</td>
-                          <td>15.2</td>
-                          <td>0.834</td>
+                          <td>0.75</td>
+                          <td>0.836</td>
                         </tr>
                         <tr>
-                          <td>Llama-3.1-8B-instruct</td>
-                          <td>21.3</td>
-                          <td>0.868</td>
+                          <td>Llama-3.1-8B</td>
+                          <td>0.02</td>
+                          <td>0.78</td>
                         </tr>
                         <tr>
-                          <td>
-                            <td>Llama-3.1-Lafeak-8B-chatvector(Ours)</td>
-                          </td>
-                          <td>
-                            <td>28.9</td>
-                          </td>
-                          <td>
-                            <td>00</td>
-                          </td>
+                          <td>Llama-3.1-8B-Instruct</td>
+                          <td>0.09</td>
+                          <td>0.84</td>
+                        </tr>
+                        <tr>
+                          <td>Lafeak-3.1-8B</td>
+                          <td>0.18</td>
+                          <td>0.83</td>
+                        </tr>
+                        <tr>
+                          <td>Lafeak-3.1-8B-chatvector</td>
+                          <td>0.17</td>
+                          <td>0.83</td>
                         </tr>
                       </tbody>
                     </table>
@@ -1057,24 +1061,28 @@ export default function Research() {
                       <tbody>
                         <tr>
                           <td>GPT-4o-mini-20240718</td>
-                          <td>15.2</td>
-                          <td>0.834</td>
+                          <td>51.7</td>
+                          <td>0.97</td>
                         </tr>
                         <tr>
-                          <td>Llama-3.1-8B-instruct</td>
-                          <td>21.3</td>
-                          <td>0.868</td>
+                          <td>Llama-3.1-8B</td>
+                          <td>0.25</td>
+                          <td>0.85</td>
                         </tr>
                         <tr>
-                          <td>
-                            <td>Llama-3.1-Lafeak-8B-chatvector(Ours)</td>
-                          </td>
-                          <td>
-                            <td>28.9</td>
-                          </td>
-                          <td>
-                            <td>00</td>
-                          </td>
+                          <td>Llama-3.1-8B-Instruct</td>
+                          <td>12.49</td>
+                          <td>0.93</td>
+                        </tr>
+                        <tr>
+                          <td>Lafeak-3.1-8B</td>
+                          <td>5.40</td>
+                          <td>0.91</td>
+                        </tr>
+                        <tr>
+                          <td>Lafeak-3.1-8B-chatvector</td>
+                          <td>6.39</td>
+                          <td>0.88</td>
                         </tr>
                       </tbody>
                     </table>
@@ -1144,36 +1152,20 @@ export default function Research() {
                       </thead>
                       <tbody>
                         <tr>
-                          <td>GPT-4o-mini</td>
-                          <td>35.8</td>
-                        </tr>
-                        <tr>
                           <td>Llama-3.1-8B</td>
-                          <td>42.1</td>
+                          <td>0</td>
                         </tr>
                         <tr>
-                          <td>
-                            <strong>Llama-3.1-8B-Instruct</strong>
-                          </td>
-                          <td>
-                            <strong>65.7</strong>
-                          </td>
+                          <td>Llama-3.1-8B-Instruct</td>
+                          <td>68</td>
                         </tr>
                         <tr>
-                          <td>
-                            <strong>Llama-3.1-Lafeak-8B</strong>
-                          </td>
-                          <td>
-                            <strong>65.7</strong>
-                          </td>
+                          <td>Lafeak-3.1-8B</td>
+                          <td>0</td>
                         </tr>
                         <tr>
-                          <td>
-                            <strong>Llama-3.1-Lafeak-8B-chatvector</strong>
-                          </td>
-                          <td>
-                            <strong>65.7</strong>
-                          </td>
+                          <td>Lafeak-3.1-8B-chatvector</td>
+                          <td>0</td>
                         </tr>
                       </tbody>
                     </table>
@@ -1194,27 +1186,19 @@ export default function Research() {
                       <tbody>
                         <tr>
                           <td>Llama-3.1-8B</td>
-                          <td>35.4</td>
+                          <td>543.26</td>
                         </tr>
                         <tr>
-                          <td>Llama-3.1-8B-Instruct</td>
-                          <td>28.2</td>
+                          <td>Llama-3.1-8B-Instruct </td>
+                          <td>335.48</td>
                         </tr>
                         <tr>
-                          <td>
-                            <td>Llama-3.1-Lafeak-8B</td>
-                          </td>
-                          <td>
-                            <strong>15.1</strong>
-                          </td>
+                          <td>Lafeak-3.1-8B</td>
+                          <td>161.1</td>
                         </tr>
                         <tr>
-                          <td>
-                            <strong>Llama-3.1-Lafek-8B-chatvector</strong>
-                          </td>
-                          <td>
-                            <strong>15.1</strong>
-                          </td>
+                          <td>Lafeak-3.1-8B-chatvector</td>
+                          <td>141.99</td>
                         </tr>
                       </tbody>
                     </table>
