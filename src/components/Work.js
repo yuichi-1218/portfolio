@@ -4,6 +4,8 @@ import bachelor from "./img/allll.drawio.png";
 import qiita from "./img/qiita.png";
 import timorleste from "./img/timorleste.png";
 import Lafeak_samne from "./img/Lafek-samne.png";
+import zulmira from "./img/zulmira.png";
+import ococosda from "./img/ococosda.png";
 import { Link } from "react-router-dom";
 
 const Work = () => {
@@ -40,7 +42,7 @@ const Work = () => {
           </a>
           <a
             class="works-item"
-            href="https://yuuichi-exjsb.github.io/portfolio/"
+            href="https://yuichi-1218.github.io/portfolio/"
             target="_blank"
           >
             <div class="works-img">
@@ -70,8 +72,22 @@ const Work = () => {
             <div class="works-img">
               <img src={timorleste} alt="" />
             </div>
-            <p class="works-name">共著</p>
-            <p class="works-info">研究室の留学生との共著論文です。</p>
+            <p class="works-name">共著(ICICTA 2024)</p>
+            <p class="works-info">Classification of Water Quality Index Using Machine Learning Algorithm for Well Assessment: A Case Study in Dili, Timor-Leste</p>
+          </a>
+          <a class="works-item" href="https://ieeexplore.ieee.org/document/11335115" target="_blank">
+            <div class="works-img">
+              <img src={zulmira} alt="" />
+            </div>
+            <p class="works-name">共著(ICICTA2025)</p>
+            <p class="works-info">A Transformer Encoder-Based Approach for Cross-Regional Water Quality Prediction with Fine-Tuning</p>
+          </a>
+          <a class="works-item" href="https://drive.google.com/file/d/1gRU8Mv1NKjyLDzKfEvqefV45BvI_C4Y6/view?usp=sharing" target="_blank">
+            <div class="works-img">
+              <img src={ococosda} alt="" />
+            </div>
+            <p class="works-name">主著(O-COCOSDA 2025)</p>
+            <p class="works-info">LAFAEK-CORPUS-1M+: A LARGE-SCALE TETUN CORPUS TO BUILD A LOW-RESOURCED LLM FOR SPEECH AND TEXT PROCESSING</p>
           </a>
 
           <Link to="/research" className="works-item">
