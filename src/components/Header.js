@@ -13,7 +13,7 @@ const Header = () => {
   const navLinks = [
     { to: "scroll_title", label: "Home" },
     { to: "about", label: "About" },
-    { to: "works", label: "works" },
+    { to: "works", label: "Works" },
     { to: "skill", label: "Skill" },
     { to: "others", label: "Others" },
   ];

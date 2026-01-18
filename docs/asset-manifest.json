@@ -1,11 +1,13 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.ee76ec73.css",
-    "main.js": "/portfolio/static/js/main.113a6483.js",
+    "main.js": "/portfolio/static/js/main.a4b17f06.js",
     "static/media/Lafeak.png": "/portfolio/static/media/Lafeak.ec68742c092baad7b223.png",
     "static/media/Loss.png": "/portfolio/static/media/Loss.aca12a24f83ad530f057.png",
     "static/media/profiile.png": "/portfolio/static/media/profiile.f3b219f76003626362f9.png",
+    "static/media/zulmira.png": "/portfolio/static/media/zulmira.185a5b2b73c8c439b0b7.png",
     "static/media/timorleste.png": "/portfolio/static/media/timorleste.fea4fabee27f0e34ccb3.png",
+    "static/media/ococosda.png": "/portfolio/static/media/ococosda.4c292ecce6388169a6f1.png",
     "static/media/Lafek-samne.png": "/portfolio/static/media/Lafek-samne.3bae883f8fa5d3bc47c5.png",
     "static/media/TimorPlace.png": "/portfolio/static/media/TimorPlace.c24171f8e6b613772069.png",
     "static/media/primer.png": "/portfolio/static/media/primer.f9fc52cce103cf114c61.png",
@@ -36,10 +38,10 @@
     "static/media/js.png": "/portfolio/static/media/js.ae35ab7f9b8e48760129.png",
     "index.html": "/portfolio/index.html",
     "main.ee76ec73.css.map": "/portfolio/static/css/main.ee76ec73.css.map",
-    "main.113a6483.js.map": "/portfolio/static/js/main.113a6483.js.map"
+    "main.a4b17f06.js.map": "/portfolio/static/js/main.a4b17f06.js.map"
   },
   "entrypoints": [
     "static/css/main.ee76ec73.css",
-    "static/js/main.113a6483.js"
+    "static/js/main.a4b17f06.js"
   ]
 }
