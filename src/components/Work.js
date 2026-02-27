@@ -72,31 +72,23 @@ const Work = () => {
             <div class="works-img">
               <img src={timorleste} alt="" />
             </div>
-            <p class="works-name">共著(ICICTA 2024)</p>
+            <p class="works-name">共著(ICAICTA 2024)</p>
             <p class="works-info">Classification of Water Quality Index Using Machine Learning Algorithm for Well Assessment: A Case Study in Dili, Timor-Leste</p>
           </a>
           <a class="works-item" href="https://ieeexplore.ieee.org/document/11335115" target="_blank">
             <div class="works-img">
               <img src={zulmira} alt="" />
             </div>
-            <p class="works-name">共著(ICICTA2025)</p>
+            <p class="works-name">共著(ICAICTA2025)</p>
             <p class="works-info">A Transformer Encoder-Based Approach for Cross-Regional Water Quality Prediction with Fine-Tuning</p>
           </a>
-          <a class="works-item" href="https://drive.google.com/file/d/1gRU8Mv1NKjyLDzKfEvqefV45BvI_C4Y6/view?usp=sharing" target="_blank">
+          <a class="works-item" href="https://ieeexplore.ieee.org/document/11384905" target="_blank">
             <div class="works-img">
               <img src={ococosda} alt="" />
             </div>
             <p class="works-name">主著(O-COCOSDA 2025)</p>
             <p class="works-info">LAFAEK-CORPUS-1M+: A LARGE-SCALE TETUN CORPUS TO BUILD A LOW-RESOURCED LLM FOR SPEECH AND TEXT PROCESSING</p>
           </a>
-
-          <Link to="/research" className="works-item">
-            <div class="works-img">
-              <img src={Lafeak_samne} alt="" />
-            </div>
-            <p class="works-name">修士学生研究</p>
-            <p class="works-info">修士論文の研究です</p>
-          </Link>
         </div>
       </div>
     </section>
